@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{d61dc52e-a523-4bf3-90a3-d50f234047ee}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{a64573b8-6fcd-4be7-9645-0baecee2ea51}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{a6bd173d-b132-4dcb-b5f4-155857935c8d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\weixinplane.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\achievement.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\big_spaceship_flying.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\bullet.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\button.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\enemy1_down.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\enemy2_down.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\enemy3_down.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\game_music.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\game_over.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\get_bomb.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\get_double_laser.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\out_porp.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\use_bomb.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font\font.fnt">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font\font.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\bomb.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\bullet1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\bullet2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy1_down1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy1_down2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy1_down3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy1_down4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy2_down1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy2_down2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy2_down3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy2_down4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy2_hit.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_down1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_down2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_down3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_down4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_down5.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_down6.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_hit.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_n1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\enemy3_n2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\game_pause_nor.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\game_pause_pressed.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\game_resume_nor.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\game_resume_pressed.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\hero_blowup_n1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\hero_blowup_n2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\hero_blowup_n3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\hero_blowup_n4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\hero1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\hero2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\ufo1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot\ufo2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\background.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\btn_finish.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\game_loading1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\game_loading2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\game_loading3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\game_loading4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\gameover.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ui\shoot_background\shoot_copyright.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="weixinplane.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy1Layer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy1Sprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy2Layer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy3Layer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlaneLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverLayer.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverScene.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="ContronLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ContronLayer.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy1Layer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy1Sprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy2Layer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy3Layer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlaneLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ContronLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
